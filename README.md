@@ -4,7 +4,7 @@
 
 ## 用法
 
-```
+```javascript
 <ul id="oul">
   <li>第一个</li>
   <li>第二个</li>
@@ -19,7 +19,7 @@
 </script>
 ```
 或者
-```
+```javascript
 <script src="jquery.tap.js"></script>
 <script>
   $("#oul li").on('tap', function(e) {
