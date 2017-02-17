@@ -28,7 +28,6 @@
 
             $element
                 .off(nativeEvent.original)
-                .on(nativeEvent.original, false)
                 .on(nativeEvent.start, function(event) {
                     // Stop execution if an event is simulated.
                     eventData.currentTarget = event.currentTarget;
